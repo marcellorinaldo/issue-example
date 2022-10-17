@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <delete dir="/Users/marcello.martina/Desktop/issue/plugin-project/target/../plugins/" />
+    <mkdir dir="/Users/marcello.martina/Desktop/issue/plugin-project/target/../plugins/" />
+    <copy file="/Users/marcello.martina/Desktop/issue/plugin-project/target/plugin.project.example-1.0.0.jar" todir="/Users/marcello.martina/Desktop/issue/plugin-project/target/../plugins/" />
+  </target>
+</project>

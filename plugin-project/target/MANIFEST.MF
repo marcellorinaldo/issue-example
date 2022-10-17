@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: plugin.project.example
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Service-Component: OSGI-INF/component.xml
+Bundle-ClassPath: .
+Export-Package: plugin.project.example
+
